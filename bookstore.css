@@ -1,0 +1,93 @@
+body 
+{
+	background: cadetblue;
+    margin: 2px;
+    padding: 3px;
+}
+h1 {
+    font-family: cursive;
+    font-size: 80px;
+    -webkit-text-stroke: 3.5px yellowgreen;
+    position: relative;
+    top: -65px;
+}
+p {
+    font-size: 35px;
+    -webkit-text-stroke: 0.2px aliceblue;
+    position: absolute;
+    top: 110px;
+}
+#title{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    position: relative;
+    top: -50px;
+}
+#author{
+    font-size: 20px;
+    font-style: oblique;
+    position: relative;
+    top: -50px;
+}
+#purchase{
+    font-size: 40px;
+    color: wheat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    position: absolute;
+    top: 780px;
+}
+.output{
+    font-size: 20px;
+    font-style: oblique;
+}
+input {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: burlywood;
+    position: relative;
+    top: -50px;
+}
+button{
+    width: 25%;
+    font-size: 20px;
+    position: relative;
+    top: -50px;
+}
+img{
+    border-width: 5px;
+    border-style: double; 
+    border-color: greenyellow;
+    position: relative;
+    top: -50px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: yellowgreen;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: aquamarine;
+}
